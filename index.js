@@ -17,18 +17,15 @@ Create a navbar in JSX:
     - Don't worry about styling yet - it'll just be plain-looking HTML for now
 */
 
-
-const page = (
-    <nav>
-        <h1>New Website</h1>
-        <ul>
-            <li>About</li>
-            <li>Pricing</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+const navbar = (
+  <nav>
+    <h1>Bob's Bistro</h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 );
 
-ReactDOM.render(
-    page,document.getElementById("root")
-)
+ReactDOM.render(navbar, document.getElementById("root"));
