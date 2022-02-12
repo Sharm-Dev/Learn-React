@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Learn-React
 
 # Set up a local react environment with create react app, Steps are: 
+=======
+
+# Learn-React - Set up a local react environment with create react app, Steps are: 
+>>>>>>> edeb4867025d1654cbddb15c7bedd69d85dada9a
 
 # Check for node, In terminal check if installed and what version:
 
@@ -10,7 +15,11 @@ node - v
 
 npm - v
 
+<<<<<<< HEAD
 # Okay, now Now that you have NodeJS and NPM installed, You should now be able to install ReactJS in your project's directory by running:
+=======
+# Okay, Now that you have NodeJS and NPM installed, You should now be able to install ReactJS in your project's directory by running:
+>>>>>>> edeb4867025d1654cbddb15c7bedd69d85dada9a
 
 npm install --save react react-dom
 
