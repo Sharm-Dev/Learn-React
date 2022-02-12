@@ -9,7 +9,7 @@ node - v
 
 npm - v
 
-# Okay, now Now that you have NodeJS and NPM installed, You should now be able to install ReactJS in your project's directory by running:
+# Okay, Now that you have NodeJS and NPM installed, You should now be able to install ReactJS in your project's directory by running:
 
 npm install --save react react-dom
 
