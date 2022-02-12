@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-# Learn-React
 
-# Set up a local react environment with create react app, Steps are: 
-=======
 
 # Learn-React - Set up a local react environment with create react app, Steps are: 
->>>>>>> edeb4867025d1654cbddb15c7bedd69d85dada9a
+
 
 # Check for node, In terminal check if installed and what version:
 
