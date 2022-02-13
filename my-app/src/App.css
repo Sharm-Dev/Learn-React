@@ -13,21 +13,38 @@ img {
   width: 100px;
 }
 
-header{
+.header{
   display: flex;
   justify-content: space-between;
+
 }
-nav{
+.nav-items{
   margin: 30px;
+  list-style: none;
+  display: flex;
 }
 
-h1{
+.list-items{
+  padding: 0 5px;
+}
+
+.heading{
   font-size: 3rem;
+  padding: 0 50px;
 }
 
+.mainContent-list{
+  padding: 0 70px;
+}
 
 li{
   margin-top: 15px;
   font-size: 1.2rem;
+}
+
+footer{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
