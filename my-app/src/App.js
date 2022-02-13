@@ -1,25 +1,23 @@
 /**
-Mini Challenge:
-Move the `header` element from Page into 
-its own component called "Header"
+Challenge: 
+
+- Move the `footer` into its own component called "Footer" 
+  and render that component inside the Page component.
+- Move the `h1` and `ol` together into another component
+  called "MainContent" and render inside Page as well.
 */
 
 import "./App.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainContent from "./components/MainContent";
 
 export default function App() {
   return (
     <>
       <Header />
-      <h1>Reasons I'm excited to learn React</h1>
-      <ol>
-        <li>Fun to learn</li>
-        <li>Enjoy the way the code is more manageable</li>
-        <li>What to understand how to use Props and Routers</li>
-      </ol>
-      <footer>
-        <small>© 2022 Sharm-Dev development. All rights reserved.</small>
-      </footer>
+      <MainContent />
+      <Footer />
     </>
   );
 }
