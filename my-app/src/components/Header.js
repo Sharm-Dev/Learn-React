@@ -3,17 +3,17 @@ import reactLogo from "../download.png"
 
 export default function Header() {
     return (
-      <header>
+      <header className="header">
         <img src={reactLogo} alt="React Logo" />
         <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
+          <ul className="nav-items">
+            <li className="list-items">
+              <a href="#">Pricing</a>
             </li>
-            <li>
+            <li className="list-items">
               <a href="about">About</a>
             </li>
-            <li>
+            <li className="list-items">
               <a href="contact">Contact</a>
             </li>
           </ul>
