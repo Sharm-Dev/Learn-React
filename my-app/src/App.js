@@ -1,33 +1,29 @@
-// import logo from './logo.svg';
-import './App.css';
-import reactLogo from './download.png'
+/**
+Challenge: 
 
-function App() {
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+ */
+
+import "./App.css";
+import reactLogo from "./download.png"
+
+export default function App() {
   return (
-    <div className="App">
-      <header>
-        <img src={reactLogo} alt="react logo"/>
-      </header>
-      <section>
-        <h1>Fun Facts about React</h1>
-        <ul>
-          <li>Was first released in 2013</li>
-          <li>Was orginally created by Jordon Walke</li>
-          <li>Has well over 100K stars on Github</li>
-          <li>Is maintained by Facebook</li>
-          <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-      </section>
-    </div>
+    <>
+      <img src={reactLogo} alt="React Logo" />
+      <h2>Why I'm excited to be learning React :)</h2>
+      <ol>
+        <li>Fun to learn</li>
+        <li>Enjoy the way the code is more manageable</li>
+        <li>What to understand how to use Props and Routers</li>
+      </ol>
+    </>
   );
 }
 
-export default App;
-
-
- /* Challenge: Starting from scratch, build and render the HTML for our
-      section project. Check the Google slide for what you're trying to build.
-      We'll be adding styling to it later. Hints: * The React logo is a file in
-      the project tree, so you can access it by using `src="./react-logo.png" in
-      your image element * You can also set the `width` attribute of the image
-      element just like in HTML. In the slide, I have it set to 40px */
