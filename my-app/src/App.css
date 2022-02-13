@@ -13,10 +13,12 @@ img {
   width: 100px;
 }
 
-
-section{
-  margin:40px 0 0 0;
-  padding: 40px;
+header{
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  margin: 30px;
 }
 
 h1{
