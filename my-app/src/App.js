@@ -19,3 +19,16 @@ Challenge: Project setup
   the fonts. You may need to do some extra research to figure out how this 
   works if you haven't done it before)
 */
+
+import './App.css';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+
+export default function App() {
+  return (
+    <div className='container'>
+      <Navbar />
+      <Main />
+    </div>
+  );
+};
